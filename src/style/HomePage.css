@@ -1,0 +1,201 @@
+.HomePage{
+    width: 100%;
+    margin-top: 175px;
+}
+
+/* Banner */
+.Banner{
+    width: 100%;
+    display: flex;
+    height: 100vh;
+}
+
+.Banner .Banner-img{
+    width: 70%;
+    margin-left: 2rem;
+}
+
+.Banner .Banner-img img{
+    width: 100%;
+}
+
+.Banner .Banner-text{
+    width: 50%;
+    padding: 0 5rem;
+}
+
+.Banner .Banner-text .Banner-Title{
+    color: #1D1CE5;
+    opacity: 0.85;
+}
+
+.Banner .Banner-text .Banner-subtext{
+    opacity: 0.90;
+}
+
+/* Card */
+
+.Card-Component{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+    margin-bottom: 20vh;
+    
+}
+
+.Card-Component .Card{
+    background: white;
+    width: 20%;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem;
+    border-radius: 20px;
+}
+
+
+.Card-Component .Card .Card-Title{
+    color: #1D1CE5;
+    opacity: 0.85;
+}
+
+.Card-Component .Card .Card-Subtext{
+    opacity: 0.85;
+}
+
+/* Slider */
+
+.Slider-Component{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.Slider-Component .Slider-Title{
+    width: 45%;
+    font-size: 32px;
+    color: #1D1CE5;
+    opacity: 0.85;
+}
+
+.Slider-Component .Slider{
+    width: 55%;
+    border: 2px solid white;
+    padding: 2rem;
+    border-radius: 20px;
+}
+
+.Swiper{
+    width: 100%;
+    height: 50vh;
+}
+
+/* About */
+
+.About-Component{
+    width: 80%;
+    margin: 0 auto;
+    background: white;
+    padding: 2rem;
+    border-radius: 20px;
+}
+
+.About-Component .About-text  {
+    column-count: 2;
+}
+
+.About-Component .About-up{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.About-Component .Icons a{
+    margin-right: 10px;
+}
+
+.About-Component .Icons img{
+    width: 30px;
+}
+
+
+@media (max-width:768px) {
+    .HomePage{
+        margin-top: 100px;
+    }
+    
+    /* Banner */
+
+    .Banner{
+        flex-direction: column;
+    }
+
+    .Banner .Banner-img{
+        width:90%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+    }
+
+    .Banner .Banner-img img{
+        width:100%;
+    }
+
+    .Banner .Banner-text{
+        width: 90%;
+        margin: 0 auto;
+        padding: 0 1rem;
+    }
+
+    .Banner-Button{
+        margin: 2rem 25%;
+    }
+
+    /* Cards */
+
+    .Card-Component{
+        width: 95%;
+        flex-direction: column;
+        margin: 300px auto;
+    }
+
+    .Card-Component .Card{
+        width: 85%;
+    }
+
+    /* Slider */
+    .Slider-Component{
+        width: 95%;
+        flex-direction: column;
+        margin: 0 auto 50px auto;
+    }
+
+    .Slider-Component .Slider-Title{
+        font-size: 24px;
+        width: 100%;
+    }
+
+    .Slider-Component .Slider{
+        width: 90%;
+        margin: 0 auto;
+        padding: 0;
+    }
+    .Swiper{
+        width: 90%;
+        height: 50vh;
+        margin: 0 auto;
+    }
+
+    /* About */
+
+    .About-Component .About-text  {
+        column-count: 1;
+    }
+}
