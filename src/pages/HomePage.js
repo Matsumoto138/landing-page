@@ -4,6 +4,8 @@ import BannerComponent from '../components/BannerComponent'
 import CardComponent from '../components/CardComponent'
 import SliderComponent from '../components/SliderComponent'
 import AboutComponent from '../components/AboutComponent'
+import ContactUs from '../components/ContactUs'
+import Footer from '../components/Footer'
 
 function HomePage() {
   return (
@@ -16,6 +18,8 @@ function HomePage() {
        
           <SliderComponent />
           <AboutComponent />
+          <ContactUs />
+          <Footer />
     </div>
   )
 }

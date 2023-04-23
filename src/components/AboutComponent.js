@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import Instagram from '../images/instagram_logo.png'
 import Linkedin from '../images/linkedin_logo.png'
 
@@ -8,12 +9,12 @@ function AboutComponent() {
         <div className="About-up">
             <div className="Title"><h1>Biz Kimiz?</h1></div>
             <div className="Icons">
-                <a href="">
+                <Link className='link' to='https://www.instagram.com/mobi.menti/' target='_blank' >
                     <img src={Instagram} alt="" />
-                </a>
-                <a href="">
+                </Link>
+                <Link className='link' to='https://www.linkedin.com/company/mobi̇menti̇/' target='_blank' >
                     <img src={Linkedin} alt="" />
-                </a>
+                </Link>
             </div>
         </div>
         <div className="About-down">

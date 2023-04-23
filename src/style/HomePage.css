@@ -117,12 +117,109 @@
     justify-content: space-between;
 }
 
-.About-Component .Icons a{
+.About-Component .About-up .Title{
+    color: #1D1CE5;
+    opacity: 0.85;
+}
+
+.About-Component .Icons .link{
     margin-right: 10px;
 }
 
-.About-Component .Icons img{
+.Icons img{
     width: 30px;
+}
+
+/* Cotact Us Section */
+
+.ContactUs{
+    width: 80%;
+    margin: 10vh auto;
+    background: white;
+    padding: 2rem;
+    border-radius: 20px;
+}
+
+.ContactUs .Contact-up{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.ContactUs .Contact-up .Title{
+    color: #1D1CE5;
+    opacity: 0.85;
+}
+
+.Icons a{
+    margin-right: 10px;
+}
+
+
+.ContactUs .Contact-down{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ContactUs .contact-input{
+    margin: 1rem 0;
+}
+
+.ContactUs .Contact-down .MuiInputBase-input{
+    width: 400px;
+    
+}
+
+/* Footer */
+
+.Footer{
+    background: linear-gradient(to left,#7978FF,#1D1CE5);
+    padding: 0 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.Footer .Footer-Top{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Footer .Footer-Menu{
+    display: flex;
+    margin: 0.5rem;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.Footer .Footer-Menu li{
+    margin: 0.5rem 0;
+    padding: 0 1rem;
+    color: white;
+    opacity: 0.9;
+    cursor: pointer;
+    font-size: 12px;
+    border-right: 1px solid rgba(255, 255, 255, 0.233);
+}
+
+
+.Footer .Footer-Mid{
+    display:flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.Copyright{
+    color: white;
+    opacity: 0.5;
+    margin: 0 auto;
 }
 
 
@@ -198,4 +295,33 @@
     .About-Component .About-text  {
         column-count: 1;
     }
+
+    .ContactUs{
+        width: 95%;
+        
+        
+    }
+
+    .ContactUs .Contact-down{
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+
+    .ContactUs .Contact-down .MuiInputBase-input{
+        width: 270px;
+        
+    }
+
+    .Footer .Footer-Mid .Icons img{
+        width: 20px;
+    }
+
+    .Footer .Footer-Mid{
+        justify-content: space-between;
+    }
+
+    .Footer .Copyright{
+        font-size: 10px;
+    }
+    
 }
