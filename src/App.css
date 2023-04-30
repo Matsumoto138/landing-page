@@ -7,7 +7,7 @@
 
 .Navbar{
   width: 100%;
-  height: 70px;
+  height: 85px;
   background: linear-gradient(to left,#7978FF,#1D1CE5);
   
 
@@ -21,28 +21,44 @@
 
 
 .Logo img{
-  width: 60px;
-  height: 60px;
+  width: 80px;
+  height: auto;
   margin-top: 5px;
 }
 
 .Navbar .Menu{
   margin-left: auto;
   display: flex;
+  padding-right: 2rem;
+}
+
+.Navbar .Menu ul{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  
+}
+
+
+.Navbar .Menu ul li a{
+  color: white;
+}
+
+
+.Navbar .Menu .navbar-link{
+  cursor: pointer;
 }
 
 .Hamburger-Button{
-  width: 30px;
-  height: 60px;
-  background: transparent;
+
   border: none;
   cursor: pointer;
-  right: 10px;
+  background: transparent;
 }
 
 .Hamburger-Button img{
   width: 30px;
-  height: auto;
+  height: 30px;
 }
 
 .Drawer-List{
@@ -74,16 +90,17 @@
   }
 
   .Navbar .Toolbar{
-    padding: 0 5%;
+    
+    max-width: 350px;
+    min-width: 300px;
+    margin: 0;
   }
-
-
 
 }
 
 @media (min-width:720px){
   .Hamburger-Button{
-    display: none;
+    display: none !important;
   }
 }
 

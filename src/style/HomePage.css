@@ -201,11 +201,15 @@
 .Footer .Footer-Menu li{
     margin: 0.5rem 0;
     padding: 0 1rem;
-    color: white;
+
     opacity: 0.9;
     cursor: pointer;
     font-size: 12px;
     border-right: 1px solid rgba(255, 255, 255, 0.233);
+}
+
+.Footer .Footer-Menu li a{
+    color: white;
 }
 
 

@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom'
 
 function ContactUs(){
     return(
-        <div className="ContactUs">
+        <div className="ContactUs" id="contact">
             <div className="Contact-up">
             <div className="Title"><h1>Bize Ulaşın</h1></div>
             <div className="Icons">

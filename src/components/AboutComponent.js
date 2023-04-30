@@ -5,7 +5,7 @@ import Linkedin from '../images/linkedin_logo.png'
 
 function AboutComponent() {
   return (
-    <div className='About-Component'>
+    <div className='About-Component' id='about'>
         <div className="About-up">
             <div className="Title"><h1>Biz Kimiz?</h1></div>
             <div className="Icons">

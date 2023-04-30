@@ -7,7 +7,7 @@ import { Button } from '@mui/material'
 
 function SliderComponent() {
   return (
-    <div className='Slider-Component'>
+    <div className='Slider-Component' id='slider'>
         <div className="Slider-Title">
             <h1>Seni Neler Bekliyor</h1>
         </div>

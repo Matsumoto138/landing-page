@@ -8,6 +8,7 @@ body{
     font-family: 'Rubik', sans-serif;
     color: #393939;
     background-color: rgb(236, 236, 236);
+    scroll-behavior: smooth;
 }
 
 body ul{
