@@ -1,5 +1,5 @@
 import React from 'react'
-import Logo from '../images/mobimenti-logo.png'
+import Logo from '../images/Logo.png'
 import { Link } from 'react-scroll'
 import Instagram from '../images/instagram-svg.svg'
 import Linkedin from '../images/linkedin-svg.svg'

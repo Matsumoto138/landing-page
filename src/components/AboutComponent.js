@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import Instagram from '../images/instagram_logo.png'
 import Linkedin from '../images/linkedin_logo.png'
 
+
 function AboutComponent() {
   return (
     <div className='About-Component' id='about'>

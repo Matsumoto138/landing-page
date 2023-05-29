@@ -1,21 +1,25 @@
 import React, {useState, useRef} from 'react'
-import Logo from '../images/mobimenti-logo.png'
+import Logo from '../images/Logo.png'
 import { Menu, MenuItem, IconButton } from '@mui/material'
 import MoreVertIcon from '@mui/icons-material/MoreVert';
 import Hamburger from '../images/Hamburger.png'
 import { Link } from 'react-scroll';
+import {useNavigate} from 'react-router-dom'
 
 import { AppBar, Tab, Tabs, Toolbar } from '@mui/material'
 
 
 function Navbar(props) {
+    const navigate = useNavigate()
 
     const {refs} = props
 
     const [value, setValue] = useState(0)
     const [anchorEl, setAnchorEl] = useState(null)
 
-
+    const routeNavigate = () =>{
+        navigate('/')
+    }
     const handleCLick = (event) =>{
         setAnchorEl(event.currentTarget)
     }
@@ -50,12 +54,17 @@ function Navbar(props) {
     <React.Fragment>
         <AppBar className='Navbar' sx={{background:'linear-gradient(to left,#7978FF,#1D1CE5);'}}>
             <Toolbar className='Toolbar'>
+                
                 <div className="Logo">
-                    <img src={Logo} alt="" srcset="" />
+                    <Link onClick={routeNavigate}>
+                        <img src={Logo} alt="" srcset="" />
+                    </Link>
                 </div>
+                
                 <div className="Menu">
                     <nav>
                         <ul>
+                            <Link onClick={routeNavigate} >Ana Sayfa</Link>
                             <Link className='navbar-link' activeClass="active" spy={true} smooth={true} offset={-70} duration={500}  to='slider'>Seni Neler Bekliyor</Link>
                             <Link className='navbar-link' activeClass="active" spy={true} smooth={true} offset={-70} duration={500}  to='about'>Biz Kimiz?</Link>
                             <Link className='navbar-link' activeClass="active" spy={true} smooth={true} offset={-70} duration={500}  to='contact'>Bize Ulaşın</Link>

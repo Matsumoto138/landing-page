@@ -1,9 +1,19 @@
 import React from 'react'
 import Banner from '../images/Group-min-removebg.png'
-import { Button } from '@mui/material'
+import { Button, Container } from '@mui/material'
+import {useNavigate} from 'react-router-dom'
 
 function BannerComponent() {
+
+  const navigate = useNavigate()
+  const handleClick = () =>{
+    navigate('/mentor-ol')
+  }
+
   return (
+    <Container>
+
+    
     <div className='Banner'>
         <div className="Banner-img">
             <img src={Banner} alt="" />
@@ -19,10 +29,11 @@ function BannerComponent() {
 
             </p>
             <div className="Banner-Button">
-            <Button variant="contained" sx={{borderRadius:'20px', width:"150px", height:"50px", background: "linear-gradient(to left,#7978FF,#1D1CE5)"}} >Mentor Ol</Button>
+            <Button onClick={handleClick} variant="contained" sx={{borderRadius:'20px', width:"150px", height:"50px", background: "linear-gradient(to left,#7978FF,#1D1CE5)"}} >Mentor Ol</Button>
             </div>
         </div>
     </div>
+    </Container>
   )
 }
 

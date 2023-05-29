@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.f9b5b3fb.css",
-    "main.js": "/static/js/main.d8360bc5.js",
-    "static/media/mobimenti-logo.png": "/static/media/mobimenti-logo.887e39e644bba6723e3d.png",
-    "static/media/instagram_logo.png": "/static/media/instagram_logo.be2b68482a568488097d.png",
-    "static/media/Group-min-removebg.png": "/static/media/Group-min-removebg.24e5705ebe3e8882d5e5.png",
-    "static/media/instagram-svg.svg": "/static/media/instagram-svg.8e97982b5c14973577cc215f8cb4ff43.svg",
-    "static/media/linkedin-svg.svg": "/static/media/linkedin-svg.9b482566fb8b84c49347c8fed629d707.svg",
-    "index.html": "/index.html",
-    "main.f9b5b3fb.css.map": "/static/css/main.f9b5b3fb.css.map",
-    "main.d8360bc5.js.map": "/static/js/main.d8360bc5.js.map"
+    "main.css": "/landing-page/static/css/main.f9b5b3fb.css",
+    "main.js": "/landing-page/static/js/main.01677b81.js",
+    "static/media/mobimenti-logo.png": "/landing-page/static/media/mobimenti-logo.887e39e644bba6723e3d.png",
+    "static/media/instagram_logo.png": "/landing-page/static/media/instagram_logo.be2b68482a568488097d.png",
+    "static/media/Group-min-removebg.png": "/landing-page/static/media/Group-min-removebg.24e5705ebe3e8882d5e5.png",
+    "static/media/instagram-svg.svg": "/landing-page/static/media/instagram-svg.8e97982b5c14973577cc215f8cb4ff43.svg",
+    "static/media/linkedin-svg.svg": "/landing-page/static/media/linkedin-svg.9b482566fb8b84c49347c8fed629d707.svg",
+    "index.html": "/landing-page/index.html",
+    "main.f9b5b3fb.css.map": "/landing-page/static/css/main.f9b5b3fb.css.map",
+    "main.01677b81.js.map": "/landing-page/static/js/main.01677b81.js.map"
   },
   "entrypoints": [
     "static/css/main.f9b5b3fb.css",
-    "static/js/main.d8360bc5.js"
+    "static/js/main.01677b81.js"
   ]
 }

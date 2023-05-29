@@ -2,9 +2,11 @@ import React from 'react'
 import World from '../images/world-min.jpg'
 import Select from '../images/select-min.jpg'
 import Meeting from '../images/meeting-min.jpg'
+import { Container } from '@mui/material'
 
 function CardComponent() {
   return (
+    <Container>
     <div className='Card-Component'>
         <div className="Card">
             <div className="Card-img">
@@ -47,6 +49,7 @@ function CardComponent() {
                 </div>
         </div>
     </div>
+    </Container>
   )
 }
 
